@@ -2,7 +2,7 @@
 
 ## Overview
 
-This sample demonstrates how to use the Syncfusion [Blazor Spinner](https://www.syncfusion.com/forums) component in a hosted Blazor WebAssembly application. The implementation showcases displaying loading indicators for long-running operations, customizing spinner appearance, and controlling visibility during user interactions.
+This sample demonstrates how to use the Syncfusion [Blazor Spinner](https://www.syncfusion.com/blazor-components/blazor-spinner) component in a hosted Blazor WebAssembly application. The implementation showcases displaying loading indicators for long-running operations, customizing spinner appearance, and controlling visibility during user interactions.
 
 The sample integrates the Spinner component with the Syncfusion Tab component to provide visual feedback while tab content is being loaded. It also demonstrates custom styling, descriptive labels, and visibility management using two-way binding and asynchronous event handling.
 
@@ -57,7 +57,7 @@ dotnet run
 
 - For general product questions, visit the [Syncfusion Community Forum](https://www.syncfusion.com/forums) or [Syncfusion Support](https://www.syncfusion.com/support).
 - To report an issue specific to this sample, open a GitHub issue in this repository.
-- For implementation details, see the [relevant official Syncfusion documentation](https://blazor.syncfusion.com/documentation/progress-bar/getting-started).
+- For implementation details, see the [relevant official Syncfusion documentation](https://blazor.syncfusion.com/documentation/spinner/getting-started-webapp).
 
 ## License
 
