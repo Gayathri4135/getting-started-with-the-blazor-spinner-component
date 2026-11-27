@@ -38,20 +38,37 @@ The sample integrates the Spinner component with the Syncfusion Tab component to
 
 1. Open the repository folder in Visual Studio Code.
 2. Open the integrated terminal.
-3. Navigate to the startup project directory for the hosted application.
+3. Navigate to the `Server` project directory:
+
+```bash
+cd Server 
+```
+
+4. Restore project dependencies:
 
 ```bash
 dotnet restore
+```
+
+5. Run the application:
+
+```bash
 dotnet run
 ```
 
-4. Open the local URL displayed in the terminal after the application starts.
+6. Open the local URL displayed in the terminal after the application starts.
 
 ## Project Structure
 
 - `GettingStarted.sln` — Visual Studio solution file containing the sample projects.
 
-`Client/Pages/Index.razor` — Main sample page demonstrating Spinner customization, labels, visibility control, and Tab integration.
+- `Client/` — Contains the Blazor WebAssembly client application.
+
+- `Client/Pages/Index.razor` — Main sample page demonstrating Spinner customization, labels, visibility control, and Tab integration.
+  
+- `Server/` — Hosts and serves the Blazor WebAssembly application.
+
+- `Shared/` — Contains shared models and resources used by both the Client and Server projects.
 
 ## Support and Feedback
 
